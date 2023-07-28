@@ -18,7 +18,10 @@ url (required)   -   URL to Login page (do not include http://)
 
 -dump (optional) -   Show dumped data 
 
+
+
 Examples:
+
 Basic: spwder.py url=facebook.com/login 
 
 -pl=C:\Users\you\Desktop\mypasswords.txt 
@@ -44,6 +47,8 @@ example:
 User-Agent
 
 Mozilla/5.0 
+
+
 
 
 -dump=1    (it takes either 1 or 2, 1 for first response from target, 2 for response from target that indicated a possible correct password) 
