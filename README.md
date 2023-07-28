@@ -52,7 +52,9 @@ Mozilla/5.0
  
  
  
- *********
+*********
 -dump=1    (it takes either 1 or 2, 1 for first response from target, 2 for response from target that indicated a possible correct password) 
  
 Important: When trying to bruteforce do not use -dump , only use it after a bruteforce is done. Also use url=x with it to avoid errors. (spwder.py url=whatever -dump=2) 
+*********
+Make sure pwds.txt is in the working directory of spwder.py alongside dump1.txt and dump2.txt
