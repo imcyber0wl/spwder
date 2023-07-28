@@ -1,6 +1,7 @@
 # spwder
 A simple HTML form password bruteforcing tool written in python.
-
+ 
+------------------------------------------------------------ 
 Arguments:
  
 url (required)   -   URL to Login page (do not include http://) 
@@ -20,7 +21,7 @@ url (required)   -   URL to Login page (do not include http://)
 -dump (optional) -   Show dumped data 
  
  
- 
+------------------------------------------------------------ 
 Examples:
 
 Basic: spwder.py url=facebook.com/login 
