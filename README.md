@@ -25,7 +25,7 @@ url (required)   -   URL to Login page (do not include http://)
 Examples:
  
 Basic: spwder.py url=facebook.com/login 
-------
+*********
 -pl=C:\Users\you\Desktop\mypasswords.txt 
 *********
 -cf=C:\Users\you\Desktop\mycookie.txt
@@ -35,9 +35,9 @@ Basic: spwder.py url=facebook.com/login
 -https=1    (this enables https)
 *********
 -p=username=myusername%26other=1234   (notice using %26 instead of &)
-
+*********
 -hd=C:\Users\you\Desktop\myheaders.txt 
-
+*********
 myheaders.txt should look like this:
 
 header
@@ -52,7 +52,7 @@ Mozilla/5.0
  
  
  
- 
+ *********
 -dump=1    (it takes either 1 or 2, 1 for first response from target, 2 for response from target that indicated a possible correct password) 
  
 Important: When trying to bruteforce do not use -dump , only use it after a bruteforce is done. Also use url=x with it to avoid errors. (spwder.py url=whatever -dump=2) 
