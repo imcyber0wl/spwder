@@ -23,17 +23,17 @@ url (required)   -   URL to Login page (do not include http://)
  
 ------------------------------------------------------------ 
 Examples:
-
+ 
 Basic: spwder.py url=facebook.com/login 
-
+------
 -pl=C:\Users\you\Desktop\mypasswords.txt 
-
+------
 -cf=C:\Users\you\Desktop\mycookie.txt
-
+------
 -cc=Mycookie124
-
+------
 -https=1    (this enables https)
-
+------
 -p=username=myusername%26other=1234   (notice using %26 instead of &)
 
 -hd=C:\Users\you\Desktop\myheaders.txt 
