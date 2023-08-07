@@ -1,4 +1,4 @@
-###### spwder v1  Jul 2023 
+###### spwder v1  Jul 2023  Py 3.10.7
 ##################### >>>>>>>>>>>>>> Written by imcyber0wl on github
 import urllib.request
 from html.parser import HTMLParser
@@ -38,7 +38,7 @@ print("                   /       \     ")
 
 #art from https://www.asciiart.eu/animals/spiders
 
-inputholder=(0,0,0,0) #gets info on where is the damn thingy 
+inputholder=(0,0,0,0) #gets info on where is the input field
 argparser = argparse.ArgumentParser(description="?")
 
 #Files needed in cwd: pwds.txt dump1.txt dump2.txt
