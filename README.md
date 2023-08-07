@@ -14,7 +14,7 @@ url (required)   -   URL to Login page (do not include http://)
  
 -https (optional) -  Use HTTPs (uses HTTP by defualt)
  
--p (optional)    -   Provide parameters (you should provide username/email with it) Use %26 instead of "&"
+-p (optional)    -   Provide parameters (you should provide username/email with it)   Use %26 instead of "&"
  
 -hd (optional)   -   Use custom headers from file 
  
@@ -34,7 +34,7 @@ Basic: spwder.py url=facebook.com/login
 *********
 -https=1    (this enables https)
 *********
--p=username=myusername%26other=1234   (notice using %26 instead of &)
+-p=username=myusername%26other=1234        (notice using %26 instead of &)
 *********
 -hd=C:\Users\you\Desktop\myheaders.txt 
 *********
